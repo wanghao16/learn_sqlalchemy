@@ -38,3 +38,5 @@ ed_user.nickname = 'eddie'
 session.add(ed_user)
 # delete instance
 session.delete(ed_user)
+# insert or update
+session.merge(ed_user)
